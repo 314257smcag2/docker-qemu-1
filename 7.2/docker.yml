@@ -1,4 +1,4 @@
-docker run -it --privileged --rm \
+docker run -it --rm \
 	--device /dev/kvm \
 	--name qemu-container \
 	-v /home/jsmith/hda.qcow2:/tmp/hda.qcow2 \
